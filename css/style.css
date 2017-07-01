@@ -3,7 +3,7 @@
 	padding: 0;
 }
 
-a {
+a, th, td {
 	color: #fff;
 	text-decoration: none;
 }
@@ -60,12 +60,23 @@ li {
 
 /*------------main------------*/
 
+
 /*------------footer------------*/
+#footer .footer-menu {
+	border-bottom: 1px solid #333;
+}
+
 #footer .footer-menu ul {
+	text-align: center;
 	margin: 0 auto;
 	background-color: #000;
 }
 
 .footer-menu ul li {
 	display: inline-block;
+	padding: 8px
+}
+
+#footer .footer-menub {
+	background-color: #000;
 }
