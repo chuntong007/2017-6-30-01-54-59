@@ -8,6 +8,7 @@ a {
 	text-decoration: none;
 }
 
+/*------------header------------*/
 #header {
 	position: relative;
 	width: 100%;
@@ -20,11 +21,11 @@ li {
 }
 
 #header .header-menu {
-	position: absolute;
+	position: relative;
 	bottom: 0;
 	margin: auto auto 5px;
-	height: 37px;
 	width: 980px;
+	height: 75px;
 }
 
 #header > a {
@@ -34,8 +35,15 @@ li {
 	margin:auto 10px 0 auto;
 }
 
+@media screen and (max-width: 980px) {
+	#header > a {
+		display: none;
+	}	
+}
 #header .header-menu ul {
-	float: right;
+	position: absolute;
+	right: 0;
+	bottom: 0;
 }
 
 .header-menu ul li {
@@ -44,10 +52,20 @@ li {
 }
 
 #header .header-menu h1 {
-	float: left;
+	position: absolute;
+	bottom: 0;
+	left: 0;
 	color: #fff;
 }
 
-ul li a {
-	
+/*------------main------------*/
+
+/*------------footer------------*/
+#footer .footer-menu ul {
+	margin: 0 auto;
+	background-color: #000;
+}
+
+.footer-menu ul li {
+	display: inline-block;
 }
