@@ -59,7 +59,9 @@ li {
 }
 
 /*------------main------------*/
-
+.main-wrap .main-banner img {
+	display: block;
+}
 
 /*------------footer------------*/
 #footer .footer-menu {
