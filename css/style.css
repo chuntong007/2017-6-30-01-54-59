@@ -76,9 +76,22 @@ li {
 
 .footer-menu ul li {
 	display: inline-block;
-	padding: 8px
+	padding: 15px
 }
 
 #footer .footer-menub {
 	background-color: #000;
+	padding-top: 10px
+}
+
+#footer .footer-menub table {
+	margin: 0 auto;
+	width: 980px;
+}
+
+.footer-menub table th {
+	font-weight: normal;
+	text-align: left;
+	line-height: 600%;
+	color: #c9c9c9;
 }
